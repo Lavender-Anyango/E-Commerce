@@ -2,22 +2,23 @@
     margin-top: 9%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    padding: 8px;
+    gap: 4%;
    
   
  
   }
   .product-card {
-    background-color: #fcf9f9;
+  
     border-radius: 8px;
+    padding: 1.5rem;
     overflow: hidden;
   }
   .product-card img {
-    width: 60%;
-    height: 100px;
+    width: 100%;
+    height: 150px;
     object-fit: contain;
-    background-color: #75c0ce;
-    padding: 1rem;
+    padding: 0;
+    margin-bottom: 1rem;
   }
   .product-card h3 {
     font-size: 1.2rem;
@@ -28,12 +29,7 @@
     margin: 0 1rem 1rem;
     color: #666;
   }
-  .product-card .price {
-    font-size: 1.0rem;
-    font-weight: 12px;
-    color: #333;
-    margin-bottom: 1rem;
-  }
+  */
   .product-description {
       overflow: hidden;
       text-overflow: ellipsis;
@@ -53,4 +49,5 @@
       font-size: 1.1rem;
       font-weight: bold;
       color: #007BFF;
+      margin-top: 1rem;
     }
