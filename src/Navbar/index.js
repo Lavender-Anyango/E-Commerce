@@ -16,7 +16,7 @@ function Navbar() {
          <nav >
 
             <p className='logo'>Supro.</p>
-        {/* <a className='logo' href="/#">supro</a>  */}
+
         <a href="/#">Home</a>
         <a href="/#">Shop</a>
         <a href="/#">Collection</a>

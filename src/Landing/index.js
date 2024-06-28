@@ -14,7 +14,7 @@ const Landing = function (){
                 <p>Casual line</p>
                 <p>Nylon Mix fabric</p>
                 <p>Buttoned Collar</p>
-                <button className='get-started-btn'>Get Started</button>
+               <a  className='get-started-link'>GET STARTED</a>
             </div>
         </section>
     )
